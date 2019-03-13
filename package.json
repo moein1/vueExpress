@@ -1,0 +1,20 @@
+{
+  "name": "fullstack-mevn",
+  "version": "1.0.0",
+  "description": "full stack application using vue node and express and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Mohammad",
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "nodemon": "^1.18.10"
+  }
+}
